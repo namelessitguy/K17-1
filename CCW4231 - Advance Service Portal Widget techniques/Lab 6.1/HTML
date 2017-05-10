@@ -1,6 +1,6 @@
-<div>
-<!-- your widget template -->
-  <h2 class="jumbotron">
+<div class="jumbotron" style="color:{{c.options.text_color}};background-color:{{c.options.background_color}}">
+<h1>{{c.options.title}}</h1>
+  <h2>
     Total Records:{{c.data.count}}
   </h2>
 </div>
